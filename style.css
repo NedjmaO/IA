@@ -53,31 +53,40 @@ footer{
 }
 
 .corps{
+  display:flex;
   height:500px;
   position: relative;
 }
 
 @keyframes slidin{
   from{
-    margin-left: 0%;
-    width: 100%;
+    left: -1000px;
   }
   to{
-    margin-left: 100%;
-    width: 100%;
+    right: 1000px;
   }
 }
 
 .gauche{
+  height: 200px;
+  width:50%;
   animation-name: slidin;
-  animation-delay: none;
   animation-duration: 4s;
   animation-direction: normal;
 }
 
-.droite{
-  animation-name: slidin;
-  animation-delay: none;
-  animation-duration: 4s;
-  animation-direction: reverse;
+.gauche img{
+  width:100%;
+}
+
+.droite {
+    height: 200px;
+    width: 50%;
+    animation-name: slidin;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+
+.droite img{
+  width:100%;
 }
