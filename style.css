@@ -55,6 +55,8 @@ footer{
 .corps{
   height:500px;
   position: relative;
+  animation-name:vs;
+  animation-duration: 2s;
 }
 
 .gauche, .droite{
@@ -66,8 +68,10 @@ footer{
 
 .gauche{
   left: -1000px;
+  animation-direction: normal;
 }
 
 .droite{
   right: 1000px;
+  animation-direction: reverse;
 }
