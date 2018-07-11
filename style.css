@@ -53,9 +53,12 @@ footer{
 }
 
 .corps{
-  display:flex;
   height:500px;
   position: relative;
+}
+
+.corps:hover .gauche, .corps:hover .droite{
+  width:50%;
 }
 
 @keyframes slidin{
@@ -68,8 +71,10 @@ footer{
 }
 
 .gauche{
+  float:left;
   height: 200px;
-  width:50%;
+  width:0%;
+  transition:width 2s;
   animation-name: slidin;
   animation-duration: 4s;
   animation-direction: normal;
@@ -80,11 +85,13 @@ footer{
 }
 
 .droite {
-    height: 200px;
-    width: 50%;
-    animation-name: slidin;
-    animation-duration: 4s;
-    animation-direction: reverse;
+  float:right;
+  height: 200px;
+  width: 0%;
+  transition:width 2s;
+  animation-name: slidin;
+  animation-duration: 4s;
+  animation-direction: reverse;
 }
 
 .droite img{
