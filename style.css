@@ -76,6 +76,7 @@ section h1{
   animation-duration: 2s;
   animation-timing-function: ease-out;
   animation-direction: normal;
+  animation-fill-mode: forwards;
 }
 
 .droite {
@@ -97,6 +98,7 @@ section h1{
   animation-duration: 2s;
   animation-timing-function: ease-in;
   animation-direction: reverse;
+  animation-fill-mode: forwards;
 }
 
 footer{
