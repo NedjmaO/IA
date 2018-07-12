@@ -45,21 +45,24 @@ section h1{
   text-shadow:3px 2px #48371D
 }
 
-  /*.corps:hover .gauche, .corps:hover .droite{
-  width:50%;
-}*/
+  .corps{
+    display: flex;
+    justify-content: center;
+    background-image: url("code.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 @keyframes slidin{
   from{
-    left:-800px;
+    left:-500px;
   }
   to{
-    left:800px;
+    left:500px;
   }
 }
 
 .gauche{
-  float:left;
   /*float:left;*/
   height: 200px;
   /*width:0%;
@@ -70,7 +73,8 @@ section h1{
 }
 
 .gauche img{
-  width:460px;
+  width: 500px;
+  height: 400px;
   position: relative;
   animation-name: slidin;
   animation-duration: 2s;
@@ -80,7 +84,6 @@ section h1{
 }
 
 .droite {
-  float:right;
   /*height: 200px;
   width: 0%;
   transition:width 2s;
@@ -92,8 +95,8 @@ section h1{
 .droite img{
   /*width:100%;*/
   position: relative;
-  width: 460px;
-  height: 303px;
+  width: 500px;
+  height: 400px;
   animation-name: slidin;
   animation-duration: 2s;
   animation-timing-function: ease-in;
