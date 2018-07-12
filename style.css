@@ -1,3 +1,13 @@
+@font-face {
+    font-family: menufont;
+    src: url(neuropol.ttf);
+}
+
+html{
+  font-family: 'Noto Serif', serif;
+  color:#1F86B2;
+}
+
 ul ul {
   display:none;
 }
@@ -12,19 +22,25 @@ li:hover ul.sous-menu{
 
 .sous-menu{
   list-style-type: none;
+  font-size: 30px;
 }
 
 body{
-  background-image: url("gris.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color:#f7f8fc;
 }
+
 header {
+    font-family: menufont;
     font-size: 48px;
-    color: #20182A;
-    text-shadow:3px 3px #A6A0AE;
+    /*color: #20182A;*/
     display: flex;
     justify-content: space-between;
+    /*text-shadow:3px 3px #A6A0AE;*/
+}
+
+
+a{
+  /*color:#20182A;*/
 }
 
 .accueil {
@@ -32,6 +48,7 @@ header {
       height: 350px;
       width: 100%;
       text-align: center;
+      background-color: white;
   }
 
 section h1{
@@ -39,7 +56,7 @@ section h1{
   font-style: italic;
   line-height: 1.8;
   text-align: center;
-  color: #20182A;
+  /*color: #20182A;*/
   text-shadow:2px 1px #A6A0AE;
 }
 
@@ -81,11 +98,16 @@ section h1{
   animation-fill-mode: forwards;
 }
 
+.video{
+  display: flex;
+  justify-content: center;
+}
+
 footer{
   font-size:20px;
   display: flex;
   justify-content: center;
-  color: #A6A0AE;
+  /*color: #A6A0AE;*/
 }
 
 .logos{
