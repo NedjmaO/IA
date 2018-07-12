@@ -1,0 +1,56 @@
+@font-face {
+    font-family: menufont;
+    src: url(neuropol.ttf);
+}
+
+html{
+  font-family: 'Noto Serif', serif;
+  color:#1F86B2;
+}
+
+ul ul {
+  display:none;
+}
+
+.menu{
+  list-style-type: none;
+}
+
+li:hover ul.sous-menu{
+  display:block;
+}
+
+.sous-menu{
+  list-style-type: none;
+  font-size: 30px;
+}
+
+body{
+  background-color:#f7f8fc;
+}
+
+header {
+    font-family: menufont;
+    font-size: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a:hover{
+  color:white;
+  text-shadow:2px 2px #1F86B2;
+}
+
+a{
+  text-decoration:none;
+  color:#1F86B2;
+}
+
+h1{
+  text-align: center;
+}
+
+.video{
+  display:flex;
+  justify-content: center;
+}

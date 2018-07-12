@@ -32,15 +32,18 @@ body{
 header {
     font-family: menufont;
     font-size: 48px;
-    /*color: #20182A;*/
     display: flex;
     justify-content: space-between;
-    /*text-shadow:3px 3px #A6A0AE;*/
 }
 
+.menu a:hover{
+  color:white;
+  text-shadow:2px 2px #1F86B2;
+}
 
 a{
-  /*color:#20182A;*/
+  text-decoration:none;
+  color:#1F86B2;
 }
 
 .accueil {
@@ -51,12 +54,11 @@ a{
       background-color: white;
   }
 
-section h1{
+.citation{
   font-size: 48px;
   font-style: italic;
   line-height: 1.8;
   text-align: center;
-  /*color: #20182A;*/
   text-shadow:2px 1px #A6A0AE;
 }
 
@@ -107,7 +109,6 @@ footer{
   font-size:20px;
   display: flex;
   justify-content: center;
-  /*color: #A6A0AE;*/
 }
 
 .logos{

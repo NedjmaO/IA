@@ -19,32 +19,3 @@ li:hover ul.sous-menu{
 .sous-menu{
   list-style-type: none;
 }
-
-header {
-    font-size: 48px;
-    color: #1F618D;
-    display: flex;
-    justify-content: space-between;
-    background-color: #ABB2B9;
-    border-style: outset;
-    border-color: #48371D;
-    border-radius: 10px;
-    text-shadow:2px 1px #ABB2B9;
-
-}
-body{
-  background-color: #D5D8DC;
-}
-
-
-  img.displayed{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .p1{
-    color: #85C1E9;
-    font-family: monospace;
-    font-size: 20px;
-  }
