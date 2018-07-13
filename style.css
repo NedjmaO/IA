@@ -27,16 +27,43 @@ li:hover ul.sous-menu{
   font-size: 30px;
 }
 
+.sidebar{
+  display:none;
+}
+
 body{
   background-color:#f7f8fc;
 }
 
+
 header {
-    font-family: menufont;
-    font-size: 48px;
+  font-family: menufont;
+  font-size: 48px;
+}
+
+@media all and (min-device-width: 781px)
+{
+  header {
     display: flex;
     justify-content: space-between;
+  }
 }
+
+@media all and (min-device-width: 0px) and (max-device-width: 780px)
+{
+  header
+  {
+    display:none;
+  }
+  .sidebar
+  {
+    font-size: menufont;
+    display: flex;
+    flex-direction: column;
+    position:left;
+  }
+}
+
 
 .menu a:hover{
   color:white;
