@@ -21,6 +21,8 @@ li:hover ul.sous-menu{
 }
 
 .sous-menu{
+  position: absolute;
+  z-index: 1;
   list-style-type: none;
   font-size: 30px;
 }
@@ -47,22 +49,23 @@ a{
 }
 
 .accueil {
-      margin-top: 4px;
-      height: 350px;
-      width: 100%;
-      text-align: center;
-      background-color: white;
+  width:60%;
+  height:5px;
+  margin-left: 260px;
+  text-align: center;
+  height: 350px;
+  background-color: white;
   }
 
-.citation{
-  font-size: 48px;
+h1{
+  font-size: 30px;
   font-style: italic;
-  line-height: 1.8;
-  text-align: center;
+  line-height: 2;
   text-shadow:2px 1px #A6A0AE;
 }
 
   .animation{
+    z-index: 2;
     display: flex;
     justify-content: center;
   }
