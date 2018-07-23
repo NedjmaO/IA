@@ -5,6 +5,10 @@
       <title>L'intelligence artificielle</title>
       <link href="style.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+      <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+      <script src='jquery-3.3.1.js'></script>
     </head>
 
     <body>
@@ -25,23 +29,17 @@
 
       <section class=animation>
           <div class="gauche"><a href="debat.html">
-            <img class="fb" src="mark.jpg"></a>
-            <p class="texte1">PDG1 jkdmqkdfmqdsfjkdjf</p>
+            <img src="mark.jpg" class="infobulle1" title="Mark Zuckerberg, PDG de Facebook"></a>
           </div>
           <div class="droite"><a href="debat.html">
-            <img src="musk.jpg"></a>
+            <img src="musk.jpg" class="infobulle1" title="Elon Musk, grand entrepreneur et chef d'entreprise"></a>
           </div>
 
-          <script src='jquery-3.3.1.js'></script>
-
           <script>
-              $(document).ready(function(){
-                $('.texte1').hide();
-                  $('.fb').hover(
-                    function(){$('.texte1').show();},
-                    function(){$('.texte1').hide();}
-                    );
-                  });
+              $(document).ready(function() {
+                  $('.tooltip').tooltipster();
+                  theme: 'tooltipster-sideTip-shadow.min'
+              });
           </script>
 
 
