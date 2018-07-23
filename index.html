@@ -25,25 +25,23 @@
 
       <section class=animation>
           <div class="gauche"><a href="debat.html">
-            <img src="mark.jpg"></a>
+            <img class="fb" src="mark.jpg"></a>
+            <p class="texte1">PDG1 jkdmqkdfmqdsfjkdjf</p>
           </div>
           <div class="droite"><a href="debat.html">
             <img src="musk.jpg"></a>
           </div>
 
-          <p class="texte1">PDG1</p>
+          <script src='jquery-3.3.1.js'></script>
 
-          <script src="jquery-3.3.1.js"></script>
           <script>
-            $(document).ready(function(){
-              $(".texte1").hide();
-              $(".gauche").mouseenter(function(){
-                $(".text1").show();
-              });
-              $(".gauche").mouseleave(function(){
-                $(".text1").hide();
-              });
-            });
+              $(document).ready(function(){
+                $('.texte1').hide();
+                  $('.fb').hover(
+                    function(){$('.texte1').show();},
+                    function(){$('.texte1').hide();}
+                    );
+                  });
           </script>
 
 
