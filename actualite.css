@@ -36,7 +36,7 @@ header {
     justify-content: space-between;
 }
 
-.menu a:hover{
+a:hover{
   color:white;
   text-shadow:2px 2px #1F86B2;
 }

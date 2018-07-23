@@ -8,14 +8,14 @@ html{
   color:#1F86B2;
 }
 
-.menu a:hover{
-  color:white;
-  text-shadow:2px 2px #1F86B2;
-}
-
 a{
   text-decoration:none;
   color:#1F86B2;
+}
+
+.menu a:hover{
+  color:white;
+  text-shadow:2px 2px #1F86B2;
 }
 
 ul ul {
@@ -37,23 +37,33 @@ li:hover ul.sous-menu{
   font-size: 30px;
 }
 
+.sidebar{
+  display:none;
+}
+
 body{
   background-color:#f7f8fc;
 }
 
-
 header {
   font-family: menufont;
   font-size: 48px;
-  display: flex;
+  display:flex;
   justify-content: space-between;
 }
 
-div{
-  margin-left: 31%;
+.institutions{
+  font-family:inherit;
+  color:#1B4F72;
+  font-size: 37px;
+  text-align: center;
+}
+.paragraphe{
+  color: #4682B4;
+  font-size: 20px;
+  font-family: fantasy;
 }
 
-.image{
-  height:400px;
-  width:500px;
+body{
+  background-color: #E9F7EF;
 }
