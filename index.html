@@ -30,6 +30,23 @@
           <div class="droite"><a href="debat.html">
             <img src="musk.jpg"></a>
           </div>
+
+          <p class="texte1">PDG1</p>
+
+          <script src="jquery-3.3.1.js"></script>
+          <script>
+            $(document).ready(function(){
+              $(".texte1").hide();
+              $(".gauche").mouseenter(function(){
+                $(".text1").show();
+              });
+              $(".gauche").mouseleave(function(){
+                $(".text1").hide();
+              });
+            });
+          </script>
+
+
           <aside class="sidebar">
                 <ul class="menu">
                     <li>Menu

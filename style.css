@@ -41,16 +41,14 @@ header {
   font-size: 48px;
 }
 
-@media all and (min-device-width: 781px)
-{
+@media (min-width: 781px) {
   header {
     display: flex;
     justify-content: space-between;
   }
 }
 
-@media all and (min-device-width: 0px) and (max-device-width: 780px)
-{
+@media (max-width: 780px) {
   header
   {
     display:none;
