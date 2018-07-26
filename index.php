@@ -21,7 +21,7 @@
                 </ul>
               </li>
           </ul>
-          <p><a href="index.html">L'intelligence artificielle</a></p>
+          <p><a href="index.php">L'intelligence artificielle</a></p>
           <p><a href="compte.html">Compte</a></p>
       </header>
 
@@ -45,7 +45,7 @@
                       </ul>
                     </li>
                 </ul>
-                <p><a href="index.html">L'intelligence artificielle</a></p>
+                <p><a href="index.php">L'intelligence artificielle</a></p>
                 <p>Compte</p>
           </aside>
       </section>
@@ -68,7 +68,11 @@
           </header>
 
           <?php
-            echo file_get_contents("donnees1.json");
+            $data = file_get_contents("donnees1.json");
+            $data = json_decode($data);
+            foreach ($data as $key => $value) {
+              echo($value->name);
+            }
           ?>
 
           <footer>
