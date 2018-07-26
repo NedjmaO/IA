@@ -21,6 +21,8 @@ li:hover ul.sous-menu{
 }
 
 .sous-menu{
+  position: absolute;
+  z-index: 1;
   list-style-type: none;
   font-size: 30px;
 }
@@ -36,7 +38,7 @@ header {
     justify-content: space-between;
 }
 
-a:hover{
+.menu a:hover{
   color:white;
   text-shadow:2px 2px #1F86B2;
 }

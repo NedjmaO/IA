@@ -5,10 +5,9 @@
       <title>L'intelligence artificielle</title>
       <link href="style.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
-      <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
-      <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
-      <script src='jquery-3.3.1.js'></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -23,7 +22,7 @@
               </li>
           </ul>
           <p><a href="index.html">L'intelligence artificielle</a></p>
-          <p>Compte</p>
+          <p><a href="compte.html">Compte</a></p>
       </header>
 
 
@@ -34,13 +33,6 @@
           <div class="droite"><a href="debat.html">
             <img src="musk.jpg" class="infobulle1" title="Elon Musk, grand entrepreneur et chef d'entreprise"></a>
           </div>
-
-          <script>
-              $(document).ready(function() {
-                  $('.tooltip').tooltipster();
-                  theme: 'tooltipster-sideTip-shadow.min'
-              });
-          </script>
 
 
           <aside class="sidebar">
@@ -62,14 +54,32 @@
         <h1>"In short, the rise of powerful AI will be either the best, or the worst thing, ever to happen to humanity. We do not yet know which." - Stephen Hawking</h1>
       </section>
 
+
       <section class="video">
-        <iframe width="854" height="480" src="https://www.youtube.com/embed/fvtrRGmv7aU" frameborder="0"; encrypted-media" allowfullscreen>">
-        </iframe>
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/fvtrRGmv7aU" frameborder="0"  allowfullscreen></iframe>
       </section>
+
+      <script src="site.js"></script>
+
+      <section class="differentesIA">
+        <article>
+          <header>
+            <h4>IA</h4>
+          </header>
+
+          <?php
+            echo file_get_contents("donnees1.json");
+          ?>
+
+          <footer>
+            <a href="#">En savoir plus</a>
+          </footer>
+        </article>
+      </section>
+
     </body>
 
     <footer>
-      <p>Nous contacter:</p>
       <p class="logos">
         <a href="">
           <img src="twitter.jpg" alt="Twitter" style="width:28px;height:28px">

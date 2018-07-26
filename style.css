@@ -14,11 +14,14 @@ ul ul {
 
 .menu{
   list-style-type: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6ac7ef), to(#206d84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-li:hover ul.sous-menu{
+/*li:hover ul.sous-menu{
   display:block;
-}
+}*/
 
 .sous-menu{
   position: absolute;
@@ -39,6 +42,9 @@ body{
 header {
   font-family: menufont;
   font-size: 48px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6ac7ef), to(#206d84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media (min-width: 781px) {
@@ -64,32 +70,44 @@ header {
 
 
 .menu a:hover{
-  color:white;
-  text-shadow:2px 2px #1F86B2;
+  text-shadow:2px 2px white;
 }
 
 a{
   text-decoration:none;
-  color:#1F86B2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6ac7ef), to(#206d84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .accueil {
-  width:60%;
-  height:5px;
-  margin-left: 260px;
-  text-align: center;
-  height: 220px;
-  background-color: white;
+    width:60%;
+    height:5px;
+    margin-left: 260px;
+    margin-top: 5%;
+    text-align: center;
+    height: 220px;
+    background-color: #ffffff;
+    border-radius: 1px 1px 1px 1px;
+    overflow: hidden;
+    border-width: 1px;
+    border-color: #ededed;
+    padding-top: 20px!important;
+    padding-right: 20px!important;
+    padding-bottom: 20px!important;
+    padding-left: 20px!important;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
   }
 
 h1{
+  color:#206d84;
   font-size: 30px;
   font-style: italic;
   line-height: 2;
-  text-shadow:2px 1px #A6A0AE;
+  text-shadow:2px #6ac7ef;
 }
 
-  .animation{
+.animation{
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -128,6 +146,7 @@ h1{
 }
 
 .video{
+  margin-top: 5%;
   display: flex;
   justify-content: center;
 }

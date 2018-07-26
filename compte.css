@@ -1,0 +1,80 @@
+@font-face {
+    font-family: menufont;
+    src: url(neuropol.ttf);
+}
+
+.menu{
+  list-style-type: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#646769e3), to(#888a8ce3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+li:hover ul.sous-menu{
+  display:block;
+}
+
+.sous-menu{
+  display:none;
+  position: absolute;
+  z-index: 1;
+  list-style-type: none;
+  font-size: 30px;
+}
+
+header {
+  font-family: menufont;
+  font-size: 48px;
+  display: flex;
+  justify-content: space-between;
+  background: -webkit-gradient(linear, left top, left bottom, from(#646769e3), to(#888a8ce3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu a:hover{
+  color:white;
+  text-shadow:2px 2px #646769e3;
+}
+
+a{
+  text-decoration:none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#646769e3), to(#888a8ce3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Play', sans-serif;
+  font-size: 52px;
+  color:#888a8ce3;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d8d3d3), to(#888a8ce3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div{
+  width: 163px;
+  margin: 0 auto;
+  padding: 11%;
+  margin: 0 auto;
+}
+
+button{
+  margin-left:6%;
+  width:150px;
+  line-height:50px;
+  background-color: grey;
+  color:white;
+  text-decoration:none;
+  border-radius: 50px;
+  background-image:radial-gradient(transparent 20%, white);
+}
+
+section{
+  border-radius: 80%;
+  background-image: url("compte.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
