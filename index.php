@@ -47,7 +47,7 @@
         <iframe width="854" height="480" src="https://www.youtube.com/embed/fvtrRGmv7aU" frameborder="0"  allowfullscreen></iframe>
       </section>
 
-      <script src="site.js"></script>
+
 
       <h1 class="ok"> Des IA très différentes:</h1>
 
@@ -68,19 +68,20 @@
           <p><a href="https://fr.wikipedia.org/wiki/Superintelligence">En savoir plus</a></p>
         </div>
       </div>
+      <footer>
+        <div class="logos">
+          <a href="">
+            <img src="twitter.jpg" alt="Twitter" style="width:28px;height:28px">
+          </a>
+          <a href="">
+            <img src="fb.png" alt="Facebook" style="width:28px;height:28px">
+          </a>
+          <a href="">
+            <img src="insta.jpg" alt="Instagram" style="width:29px;height:29px">
+          </a>
+        </div>
+      </footer>
     </body>
+      <script src="site2.js"></script>
 
-    <footer>
-      <div class="logos">
-        <a href="">
-          <img src="twitter.jpg" alt="Twitter" style="width:28px;height:28px">
-        </a>
-        <a href="">
-          <img src="fb.png" alt="Facebook" style="width:28px;height:28px">
-        </a>
-        <a href="">
-          <img src="insta.jpg" alt="Instagram" style="width:29px;height:29px">
-        </a>
-      </div>
-    </footer>
 </html>

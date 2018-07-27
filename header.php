@@ -15,5 +15,3 @@
     <p><a href="index.php">L'intelligence artificielle</a></p>
     <p><a href="compte.php">Compte</a></p>
 </header>
-
-<script src="site.js"></script>

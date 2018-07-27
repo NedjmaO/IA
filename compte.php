@@ -34,18 +34,13 @@
         </div>
       </section>
 
-      <div>
+      <section class="contact">
         <form method="post" action="mail.php">
-            <label>Un problème? Contacte-moi</label>
+            <label>Un problème? Contactez-moi</label>
             <textarea rows="10" cols="30" name="message"></textarea>
             <input type="submit">
         </form>
-      </div>
-      <?php
-      $retour=mail('','Envoi depuis le site Free', $_POST['message'], 'From : webmaster@free.fr');
-      if($retour)
-          echo 'Votre message a bien été envoyé !';
-      ?>
+      </section>
 
       <script src="compte.js"></script>
     </body>
