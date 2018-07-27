@@ -8,12 +8,24 @@
     </head>
 
     <body>
-      <?php include('header.php'); ?>
+      <header>
+          <ul class="menu">
+              <li>Menu
+                <ul class="sous-menu">
+                  <li><a href="EXPLICATION_IA.php">Qu'est-ce que l'IA</a></li>
+                  <li><a href="actualite.php">Actualité</a></li>
+                  <li><a href="INSTITUTIONS.php">Les grandes institutions</a></li>
+                </ul>
+              </li>
+          </ul>
+          <p><a href="index.php">L'intelligence artificielle</a></p>
+          <p><a href="compte.php">Compte</a></p>
+      </header>
 
       <h1>Inscrivez-vous !</h1>
 
-      <section>
-        <div>
+      <section class="formulaire">
+        <div class="f">
           <p><input type="text" placeholder="Nom" id="nom"></p>
           <p><input type="text" placeholder="Prenom" id="prenom"></p>
           <p><input type="text" placeholder="Age" id="age"></p>
@@ -21,6 +33,19 @@
           <p><button>Je m'inscris !</button></p>
         </div>
       </section>
+
+      <div>
+        <form method="post" action="mail.php">
+            <label>Un problème? Contacte-moi</label>
+            <textarea rows="10" cols="30" name="message"></textarea>
+            <input type="submit">
+        </form>
+      </div>
+      <?php
+      $retour=mail('','Envoi depuis le site Free', $_POST['message'], 'From : webmaster@free.fr');
+      if($retour)
+          echo 'Votre message a bien été envoyé !';
+      ?>
 
       <script src="compte.js"></script>
     </body>

@@ -3,8 +3,11 @@
     <head>
       <meta charset="utf-8">
       <title>L'intelligence artificielle</title>
-      <link href="actualite.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
       <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+      <link href="actualite.css" rel="stylesheet">
     </head>
 
   <body>

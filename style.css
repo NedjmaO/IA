@@ -69,6 +69,11 @@
   justify-content: center;
 }
 
+.ok{
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
+
 .differentesIA{
   margin-top: 2%;
   display: flex;
@@ -107,6 +112,9 @@
   height:120px;
 }
 
+h4{
+  font-size: 14px;
+}
 
 .logos{
   margin-top: 5%;

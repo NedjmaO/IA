@@ -6,7 +6,7 @@
     <ul class="menu">
         <li>Menu
           <ul class="sous-menu">
-            <li><a href="EXPLICATION IA.php">Qu'est-ce que l'IA</a></li>
+            <li><a href="EXPLICATION_IA.php">Qu'est-ce que l'IA</a></li>
             <li><a href="actualite.php">Actualité</a></li>
             <li><a href="INSTITUTIONS.php">Les grandes institutions</a></li>
           </ul>
@@ -16,6 +16,4 @@
     <p><a href="compte.php">Compte</a></p>
 </header>
 
-<body>
-  <script src="site.js"></script>
-</body>
+<script src="site.js"></script>

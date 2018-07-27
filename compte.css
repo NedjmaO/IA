@@ -54,7 +54,7 @@ h1{
   -webkit-text-fill-color: transparent;
 }
 
-div{
+.f{
   width: 163px;
   margin: 0 auto;
   padding: 11%;
@@ -72,9 +72,13 @@ button{
   background-image:radial-gradient(transparent 20%, white);
 }
 
-section{
+.formulaire{
   border-radius: 80%;
   background-image: url("compte.jpg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+p{
+  text-align: center;
 }

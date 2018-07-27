@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <title>L'intelligence artificielle</title>
       <link href="style.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
       <script src="https://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"></script>
@@ -15,10 +15,10 @@
 
 
       <section class=animation>
-          <div class="gauche"><a href="debat.html">
+          <div class="gauche"><a href="debat.php">
             <img src="mark.jpg" class="infobulle1" title="Mark Zuckerberg, PDG de Facebook"></a>
           </div>
-          <div class="droite"><a href="debat.html">
+          <div class="droite"><a href="debat.php">
             <img src="musk.jpg" class="infobulle1" title="Elon Musk, grand entrepreneur et chef d'entreprise"></a>
           </div>
 
@@ -49,7 +49,7 @@
 
       <script src="site.js"></script>
 
-      <h1 style="text-align: center;"> Des IA très différentes:</h1>
+      <h1 class="ok"> Des IA très différentes:</h1>
 
       <div class="differentesIA">
         <div class="weak">
