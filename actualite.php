@@ -8,19 +8,7 @@
     </head>
 
   <body>
-    <header>
-        <ul class="menu">
-            <li>Menu
-              <ul class="sous-menu">
-                <li><a href="EXPLICATION IA.html">Qu'est-ce que l'IA</a></li>
-                <li><a href="actualite.html">Actualité</a></li>
-                <li><a href="INSTITUTIONS.html">Les grandes institutions</a></li>
-              </ul>
-            </li>
-        </ul>
-        <p><a href="index.html">L'intelligence artificielle</a></p>
-        <p><a href="compte.php">Compte</a></p>
-    </header>
+    <?php include('header.php'); ?>
 
     <section class="actualite">
         <h1>L'intelligence artificielle dans l'actualité</h1>
@@ -31,6 +19,8 @@
     <section class="video">
       <iframe width="640" height="360" src="https://www.youtube.com/embed/-MWU_-hHdOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </section>
+
+    <script src="site.js"></script>
 
   </body>
 </html>

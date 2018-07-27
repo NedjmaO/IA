@@ -11,19 +11,7 @@
     </head>
 
     <body>
-      <header>
-          <ul class="menu">
-              <li>Menu
-                <ul class="sous-menu">
-                  <li><a href="EXPLICATION IA.html">Qu'est-ce que l'IA</a></li>
-                  <li><a href="actualite.html">Actualité</a></li>
-                  <li><a href="INSTITUTIONS.html">Les grandes institutions</a></li>
-                </ul>
-              </li>
-          </ul>
-          <p><a href="index.php">L'intelligence artificielle</a></p>
-          <p><a href="compte.html">Compte</a></p>
-      </header>
+      <?php include('header.php'); ?>
 
 
       <section class=animation>
@@ -61,30 +49,29 @@
 
       <script src="site.js"></script>
 
-      <section class="differentesIA">
-        <article>
-          <header>
-            <h4>IA</h4>
-          </header>
+      <h1 style="text-align: center;"> Des IA très différentes:</h1>
 
-          <?php
-            $data = file_get_contents("donnees1.json");
-            $data = json_decode($data);
-            foreach ($data as $key => $value) {
-              echo($value->name);
-            }
-          ?>
-
-          <footer>
-            <a href="#">En savoir plus</a>
-          </footer>
-        </article>
-      </section>
-
+      <div class="differentesIA">
+        <div class="weak">
+          <h4>Weak AI</h4>
+          <img src="weak.jpg">
+          <p><a href="https://en.wikipedia.org/wiki/Weak_AI">En savoir plus</a></p>
+        </div>
+        <div class="strong">
+          <h4>Strong AI</h4>
+          <img src="strong.jpg">
+          <p><a href="https://www.techopedia.com/definition/31622/strong-artificial-intelligence-strong-ai">En savoir plus</a></p>
+        </div>
+        <div class="super">
+          <h4>Superintelligence</h4>
+          <img src="super.jpg">
+          <p><a href="https://fr.wikipedia.org/wiki/Superintelligence">En savoir plus</a></p>
+        </div>
+      </div>
     </body>
 
     <footer>
-      <p class="logos">
+      <div class="logos">
         <a href="">
           <img src="twitter.jpg" alt="Twitter" style="width:28px;height:28px">
         </a>
@@ -94,6 +81,6 @@
         <a href="">
           <img src="insta.jpg" alt="Instagram" style="width:29px;height:29px">
         </a>
-      </p>
+      </div>
     </footer>
 </html>

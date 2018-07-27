@@ -8,19 +8,8 @@
     </head>
 
       <body>
-        <header>
-          <ul class="menu">
-              <li>Menu
-                <ul class="sous-menu">
-                  <li><a href="EXPLICATION IA.html">Qu'est-ce que l'IA</a></li>
-                  <li><a href="actualite.html">Actualité</a></li>
-                  <li><a href="INSTITUTIONS.html">Les grandes institutions</a></li>
-                </ul>
-              </li>
-          </ul>
-          <p><a href="index.php">L'intelligence artificielle</a></p>
-          <p>Compte</p>
-        </header>
+        <?php include('header.php'); ?>
+
         <section>
           <h1 class="institutions">Les grandes institutions</h1>
           <p class="paragraphe">Beaucoup de marques tel que Apple, LG,
@@ -34,5 +23,7 @@
               personnel intelligent à qui on peut poser
               n'importe quelle question</p>
         </section>
+
+        <script src="site.js"></script>
     </body>
   </html>

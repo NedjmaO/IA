@@ -8,19 +8,7 @@
     </head>
 
     <body>
-      <header>
-          <ul class="menu">
-              <li>Menu
-                <ul class="sous-menu">
-                  <li><a href="EXPLICATION IA.html">Qu'est-ce que l'IA</a></li>
-                  <li><a href="actualite.html">Actualité</a></li>
-                  <li><a href="INSTITUTIONS.html">Les grandes institutions</a></li>
-                </ul>
-              </li>
-          </ul>
-          <p><a href="index.html">L'intelligence artificielle</a></p>
-          <p><a href="compte.php">Compte</a></p>
-      </header>
+      <?php include('header.php'); ?>
 
       <h1>Inscrivez-vous !</h1>
 

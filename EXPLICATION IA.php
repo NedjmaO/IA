@@ -8,22 +8,10 @@
     </head>
 
     <body>
-      <header>
-          <ul class="menu">
-              <li>Menu
-                <ul class="sous-menu">
-                  <li><a href="EXPLICATION IA.html">Qu'est-ce que l'IA</a></li>
-                  <li><a href="actualite.html">Actualité</a></li>
-                  <li><a href="INSTITUTIONS.html">Les grandes institutions</a></li>
-                </ul>
-              </li>
-          </ul>
-          <p><a href="index.php">L'intelligence artificielle</a></p>
-          <p>Compte</p>
-      </header>
+      <?php include('header.php'); ?>
 
       <article>
-        <h1 align="center"> Qu'est-ce-que l'intelligence artificielle? </h1>
+        <h1 align="center"> Qu'est-ce-que l'intelligence artificielle?</h1>
         <p class="p1"> Ces technologies qui n'ont de cesse d'être développées ont pour objectif d'imiter l’intelligence humaine.
           Leur fonctionnement repose sur divers procédés dont le "deep learning" ou autres algorithmes qui manipulent
           d'innombrables données regroupées dans des bases de données. La véritable révolution se situe néanmoins au niveau
@@ -37,14 +25,32 @@
         </p>
       </article>
 
-      <div>
-        <img class="image" src="cerveau.jpg" alt="Un cerveau">
+      <div class="dif">
+        <div class="IA">
+          <h4>L'intelligence artificielle</h4>
+          <p>Un système capable d'apprendre directement à partir de données.</p>
+          <p><a href="#">En savoir plus</a></p>
+        </div>
+        <div class="machine">
+          <h4>Le machine learning</h4>
+          <p>Un système d'IA capable d'apprendre à partir de données mais surtout sans intervention humaine.</p>
+          <p><a href="#">En savoir plus</a></p>
+        </div>
+        <div class="deep">
+          <h4>Le deep learning</h4>
+          <p style="font-size:14px;"> Une branche du machine learning qui exploite ses avantages tout en développant de nouvelles techniques comme le réseau de neurones.</p>
+          <p><a href="#">En savoir plus</a></p>
+        </div>
       </div>
 
-      <p>Ces IA inquiètent en effet de plus en plus. Certains craignent que ces IA ne parviennent à prendre contrôle de l’humanité entière ou surtout à penser par eux-mêmes. Rappelons-le;
-        ce qui distingue la machine de l'humain sont les sentiments et la conscience.
-        Néanmoins, ces IA pourraient se montrer très utiles dans la vie de tous les jours.
-        Tandis que les uns s'inquiètent, d’autres soutiennent un apport bénéfique dans de nombreux domaines tels que la médecine ou les tâches difficiles.</p>
+      <section>
+        <p>Ces IA inquiètent en effet de plus en plus. Certains craignent que ces IA ne parviennent à prendre contrôle de l’humanité entière ou surtout à penser par eux-mêmes. Rappelons-le;
+          ce qui distingue la machine de l'humain sont les sentiments et la conscience.
+          Néanmoins, ces IA pourraient se montrer très utiles dans la vie de tous les jours.
+          Tandis que les uns s'inquiètent, d’autres soutiennent un apport bénéfique dans de nombreux domaines tels que la médecine ou les tâches difficiles.</p>
+      </section>
+
+      <script src="site.js"></script>
     </body>
 
   </html>

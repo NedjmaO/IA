@@ -1,0 +1,81 @@
+@font-face {
+    font-family: menufont;
+    src: url(neuropol.ttf);
+}
+
+html{
+  font-family: 'Noto Serif', serif;
+  color:#1F86B2;
+}
+
+ul ul {
+  display:none;
+}
+
+.menu{
+  list-style-type: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6ac7ef), to(#206d84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*li:hover ul.sous-menu{
+  display:block;
+}*/
+
+.sous-menu{
+  position: absolute;
+  z-index: 1;
+  list-style-type: none;
+  font-size: 30px;
+}
+
+.sidebar{
+  display:none;
+}
+
+body{
+  background-color:#f7f8fc;
+}
+
+
+header {
+  font-family: menufont;
+  font-size: 48px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6ac7ef), to(#206d84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 781px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 780px) {
+  header
+  {
+    display:none;
+  }
+  .sidebar
+  {
+    font-size: menufont;
+    display: flex;
+    flex-direction: column;
+    position:left;
+  }
+}
+
+
+.menu a:hover{
+  text-shadow:2px 2px white;
+}
+
+a{
+  text-decoration:none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6ac7ef), to(#206d84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
